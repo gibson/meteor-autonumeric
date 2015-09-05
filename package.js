@@ -22,6 +22,6 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
 	api.use('tinytest');
-	api.use('gibson:autonumeric');
+	api.use('gibson:meteor-autonumeric');
 	api.addFiles('autonumeric-tests.js');
 });
