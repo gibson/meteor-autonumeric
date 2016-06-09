@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'gibson:meteor-autonumeric',
-	version: '0.0.1',
+	version: '0.0.2',
 	summary: 'Add jquery-autoNumeric library support',
 	git: 'https://github.com/gibson/meteor-autonumeric',
 	documentation: 'README.md'
