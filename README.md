@@ -30,6 +30,7 @@ And you can add [autoNumeric](https://github.com/BobKnothe/autoNumeric) params f
 
 ### Example
 ``` {{> autoNumeric class="form-control" id="test" value="5000" aSep=' ' altDec=',' wEmpty='zero' lZero='deny' aPad=false mDec=0}}```
+
 This is equivalent
 ```javascript
 $('#test').autoNumeric('init', {
@@ -43,7 +44,7 @@ $('#test').autoNumeric('init', {
 ```
 Full documentation for ```autoNumeric``` read 
 
-#### Getting & setting value
+#### Getting value
 Now only as jquery method, like a
 ```javascript
 Template.myTemplate.events({
@@ -52,6 +53,8 @@ Template.myTemplate.events({
     }
 });
 ```
+
+Setting value is a reactive.
 
 ## Maintainers
 
